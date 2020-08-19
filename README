@@ -1,6 +1,15 @@
 Read first. 
 
+SMARTQUARIUM is an application for water monitoring especially aquarium for aquascape and fish monitored. 
+Using DS18B20 sensor, gravity: TDS sensor, and gravity: Turbidity sensor. 
+
+There are several parameter : TDS, Temp, Time, pH, and turbidity
+But in our cases, pH still failed to be added because of in need for dc-dc isolator and can't be on the same board with TDS meter. 
+
+So in these cases, we checked pH from pH indicator, and we monitored the TDS. 
+
 This application is based on ANTARES website application. There are nodejs file, android MIT APP Inventor aia file, and arduino file. 
 
-For more information and details contact : raymond.tirta@gmail.com
+For more information and details contact : raymond.tirta@gmail.com or kafin.mufid@gmail.com
+
 
