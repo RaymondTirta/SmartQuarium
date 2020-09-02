@@ -12,4 +12,14 @@ This application is based on ANTARES website application. There are nodejs file,
 
 For more information and details contact : raymond.tirta@gmail.com or kafin.mufid@gmail.com
 
+a little bit notes about the pH meter since DFRobot documentation is in chinese with gibberish english on their web:
+# PH Meter
+needs to be calibrated at certain value, acidic & basic buffer.
+voltage output (supposedly) 0-4 V ~ 0-14 PH
+store the probe on 3 M KCl 
+clean before and after usage
+you could infact stir the solution using the pH meter, confused ? ask DFRobot. it's their word. No, i mean serously. i don't think any sane chemist would do that but idk since i'm not chemist. i mean...
+If the reading is inaccurate you could try to soak the probe on 9 ml 0,1 M HCl + 1 L H2O for 24 hours and then soak it inside 3 M KCl for a couple of hours.
+also, incase if the probe broke you could change it with another of the same type. Ag-AgCl pH probe
+
 
